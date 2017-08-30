@@ -78,4 +78,12 @@ echo "My monthly income is ".$public["karim"]["income"]."My address ".$public["k
 
 echo "My monthly income is ".$public["labony"]["income"]."My address".$public["labony"]["address"]."</br>";
 echo "My monthly income is ".$public["rim"]["income"]."My address".$public["rim"]["address"]."</br>";
+// function
+class bd {  
+	public $city="dhaka"; 
+ } 
+// call the object
+$x = new bd; 
+ // how to print object -> class property
+echo $x->city;
 ?>
